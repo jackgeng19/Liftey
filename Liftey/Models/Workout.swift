@@ -9,9 +9,9 @@ import Foundation
 
 /// A struct that stores information for a workout. It has a title, notes, and a list of exercises
 struct Workout {
-    var title: String
-    var notes: String
-    var exercises: [Exercise]
+    var title: String = ""
+    var notes: String = ""
+    var exercises: [Exercise] = []
 }
 
 extension Workout {
